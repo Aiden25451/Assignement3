@@ -1,0 +1,113 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- My Css page -->
+    <link rel="stylesheet" href="{% static 'written/style.css' %}">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <title>La Chasse-Galerie</title>
+</head>
+<body>
+    <div id="top">
+        <button onclick="left()"><--</button>
+        <button onclick="right()" style="left:50px">--></button>
+    </div>
+    <div id="page0" class="page"> 
+        <h1><br><br>La Chasse-Galerie</h1>
+        <h2>A French Canadian Myth</h2>
+    </div>
+    <div id="page1" class="page pages" style="display: none;"> 
+        <h2><br><br>Description<br></h2>
+        <p><span>
+            To begin, the coureurs de bois and French Canadians created this myth. It is a variation of a French tale of a hunter chased through the sky for hunting during mass. The coureurs de bois were French Canadian traders who dealt in the fur trade with Europeans and Native Americans. Thus, they were away from their families and friends for extended periods of time (Canada's History). Here is a summary of the 1996 NFB animated film called “La Chasse-galerie” directed by Robert Doucet. 
+            <br><br><br>
+            It was a snowy night, deep in the forest near the head of the Gatineau River. Baptiste Durand proposed to make a deal with the devil. Despite the rest of the group being apprehensive, they were reminded by Robert of the new year's party and loved ones that they were missing. Therefore, they decided to head out into the dark snowy night, towards the woods to find the devil. 
+            <br><br><br>
+            They had found him and made a deal. They were granted a flying canoe that could travel a hundred miles per hour. However, if they touched a cross or swore to God during their trip the canoe would stop working. This would be extremely dangerous because if they could not return to the starting position by dawn, they would have to give up their souls. 
+            <br><br><br>
+            The group travelled home and had an exciting time dancing non-stop for hours. Unfortunately, the devil's influence had taken control of Robert and the group, and they had drunk too much. Thankfully, the group was reminded within an hour of morning to return to the lodge. They left at once, but the drunken navigator barely missed running into the cross atop a church steeple. The near-death experience caused Robert in an inebriated state to begin to utter the name of God. Before he could, the group stopped him, and the movement caused the canoe to tip and fall over. 
+            <br><br><br>
+            Finally, when all seemed lost. The group woke up in their beds at the lodge completely safe from harm. Except for Robert, who wandered into the forest, and was never seen again.  
+        </span></p>
+    </div>
+    <div id="page2" class="page pages" style="display: none;"> 
+        <h2><br><br>Origins/Locale<br></h2>
+        <p><span>
+            La Chasse-galerie has multiple sources it has pulled from. 
+            <br><br><br>
+            To begin, arguably the largest influence comes from a popular European legend called the “Wild Hunt” known across France, Britain, Spain, etc. These myths vary greatly, but most often involve spectral riders being led by some important mythical person such as Odin. They were accompanied by animals like hunting dogs and carrying pigeons as well as mythical creatures like elves. The Wild Hunt is believed to have developed from people seeing movement and noises in the night sky (Greenberg). The earliest documentation found dates to the Anglo-Saxon Chronicles mentioning the wild hunt in 1127AD (Geller). The more modern, French version that the myth was based on involves a hunter who refused to attend Sunday Mass. As punishment he was forced to be hunted through the night skies. 
+            <br><br><br>
+            Eventually, as the myth was brought to Canada by the French. They had adapted the stories to fit their own lives. Firstly, the hunters flying through the sky had become people in flying canoes showing how popular the method of transit was. Secondly, the hunters were now coureurs de bois. This was an exceedingly popular profession among French-Canadians involving the trade of fur. Part of the job was to spend long amounts of time hunting far away from their families. Thirdly, instead of the misfortune happening after the Wild Hunt, the air of dread was now represented through the devil. This demonstrates the importance of religion. Finally, the goal of the flying canoe was now to visit family on the holidays, demonstrating the importance of family in the French Canadian culture. Thanks to attending a French school and learning about the culture. The word Terroir is used to describe French Canadian values, it includes most prominently, family, religion and tradition. Notice, the myth was adapted to fit these values. 
+        </span></p>
+    </div>
+    <div id="page3" class="page pages" style="display: none;"> 
+        <h2><br><br>Variations<br></h2>
+        <p><span>
+            There are many small details that are constantly changing from region to region. Firstly, the specific details in the deal with the devil change. For example, touching a cross may appear or disappear depending on the version. However, uttering the name of God seems to be the most consistent and important rule. Secondly, the details of why the canoe crashed have changed as well. One version is due to the inebriation of one member of the crew. He uttered the name of God while riding the canoe back and fell. In contrast, the version I summarized in the description states that the crew crashed into a cross. Then, because of the panic a crew member almost uttered God's name, in stopping him, the canoe tipped. Thirdly, the influence of the devil is left up to interpretation. Certain versions mention drinking too much as being a lapse of judgment while others explicitly say it was the influence of the devil. 
+            <br><br><br><br>
+            Additionally, this myth is a version of the Wild Hunt, which is far more popular and older, first being written in books in 1127AD (Greenberg). Firstly, Odins Hunt is arguably the most popular. This urban legend describes Odin hunting through the night sky accompanied by his Valkyries. His hunting expeditions were most often associated with tragedy or tough times to come (History Today). Secondly, Herne the hunter is an old English tale about a huntsman who was particularly fond of the Wild Hunt. He decided to make a deal with the devil, but was tricked and now is forced to hunt forever. Thirdly, in German mythology, it is quite similar to Odins hunt except the hunt is led by the gods Holt, Holle, Berta, Foste or Heme (The Editors of Encyclopedia Brittanica). 
+        </span></p>
+    </div>
+    <div id="page4" class="page pages" style="display: none;"> 
+        <h2><br><br>Function<br></h2>
+        <p><span>
+            The function of the myth has one simple takeaway. Do not make deals with the devil. Jean-Baptiste thought it was not a big deal to make a deal with the devil simply because nothing has gone wrong before. This myth seems to serve as a reminder that even though nothing has gone wrong that does not mean it is safe. As for the reason the myth had emerged, the culture shared by many French Canadian people is responsible. In French school, the concept of terroir is immensely popular. La terroir is unique to French Canadian culture and has four major elements, language, ground, family and religion. These aspects are very prominent in this myth. Religion is the most obvious, this myth teaches to avoid making deals with the devil at any cost. Secondly, family is mentioned as well. The catalyst for the hunters to make the deal with the devil is that the hunters want to visit their family and take part in their traditional celebrations. Thanks to these elements, the myth was very popular among French-Canadians because of how well it fits many people's values. 
+        </span></p>
+    </div>
+    <div id="page5" class="page pages" style="display: none;"> 
+        <h2><br><br>Popular Culture<br></h2>
+        <p><span>
+            In today's culture, the myth is not very popular. However, in Quebec it is very well known. Great examples include books, movies and music. Thanks to the strong connection between the myth and French culture, it has even become something of a symbol for French culture. An example of this includes a popular festival in Saint-Sulpice just outside Montreal called the “Festival Chasse-Galerie". More examples are provided below: 
+            <br><br><br>
+            - The Book, "The Flying Canoe" by Roch Carrier, 2004.  
+            <br>
+            - The Book, “La Chasse-galerie,” by Honoré Beaugrand with illustrations by Henri Julien et Raoul Barré, 1892 
+            <br>
+            - Music, “Chasse-Galerie,” by Claude Dubois, 1978 
+            <br>
+            - Feature Length Film, “Chasse-Galerie,” by Jean-Philippe Duval, 2016 
+            <br>
+            - Short Film, “La Chasse-Galerie,” directed by Robert Doucet, 1996 
+        </span></p>
+    </div>
+    <div id="page6" class="page pages" style="display: none;"> 
+        <h2><br><br>Reflection<br></h2>
+        <p><span>
+            I decided to choose this folktale because I was raised in the French Catholic School system. From kindergarten to my high school diploma, I spoke full French in class and learnt plenty about the Quebecois culture. The first reason I chose this myth was because I thought I could give some unique insight. The university of Windsor is majority English speakers so I thought I could investigate this myth differently then most. Secondly, during high school, French and Quebecois culture was explored in detail. Once I read the myth I noticed right away that it covered many aspects in terroir. I could give a unique insight because the word terroir is not well known outside French Canadians. Finally, I was caught once I saw the short film by Robert Doucet. I thought that the story was genuinely interesting, and I loved the animation style used in the video. 
+        </span></p>
+    </div>
+    <div id="page7" class="page pages" style="display: none;"> 
+        <h2><br><br>Bibliography<br></h2>
+        <p><span>
+            - Canada's History. “Enchanted Canoe.” Enchanted Canoe - Canada's History, Canada's History, 27 Oct. 2015, https://www.canadashistory.ca/explore/transportation/enchanted-canoe. 
+            <br><br>
+            - Geller. “The Wild Hunt - European Folk Myth.” The Wild Hunt, Mythology.net, 14 Jan. 2017, https://mythology.net/norse/norse-concepts/the-wild-hunt/. 
+            <br><br>
+            - Greenberg, Mike. “The Wild Hunt.” The Legend of the Wild Hunt: The Complete Guide (2022), MythologySource, 30 Nov. 2020, https://mythologysource.com/the-wild-hunt/. 
+            <br><br>
+            - History Today. “The Wild Hunt of Odin.” The Wild Hunt of Odin | History Today, History Today, 5 May 2019, https://www.historytoday.com/archive/foundations/wild-hunt-odin. 
+            <br><br>
+            - Encyclopædia Britannica  Editors. “Herne The Hunter.” Herne The Hunter | English Folklore, Encyclopædia Britannica, Inc., 14 May 2007, https://www.britannica.com/topic/Herne-the-Hunter. 
+            <br><br>
+            - Champoux, Micheline. “La Légende De La Chasse-Galerie.” La Légende De La Chasse-Galerie - Histoire Et Culture Régionale Du Québec - UQTR, HISTOIRE ET CULTURE RÉGIONALE DU QUÉBEC, https://oraprdnt.uqtr.uquebec.ca/pls/public/gscw031?owa_no_site=4080&owa_no_fiche=61. 
+            <br><br>
+            Images and Art sources in order from first to last: Wikimedia Commons, Wikimedia Commons, Wikimedia Commons, picryl, pxfuel, Library and Archives Canada, pxfuel, creazilla
+        </span></p>
+    </div>
+    
+
+    <script src="{% static 'written/index.js' %}"></script>
+</body>
+        
+        
